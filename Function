@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+<h3>Functions</h3>
+<script type="text/javascript">
+    var x=myFunction(4,3);
+    document.write(x);
+    function myFunction(a,b){
+        return (a+b);
+    }
+    document.write("<br>")
+
+ </script>
+</body>
+</html>
