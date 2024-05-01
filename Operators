@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+<h3>Operators</h3>
+<script type="text/javascript">
+    var x=10;
+    var y=20;
+    document.write(x+y)
+   // window.alert(x+y);
+   // console.log(x+y); //output in console press cntrl+shift+j
+    document.write("<br>","<br>")
+
+ </script>
+
+</body>
+</html>
