@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+ 
+ <h3>Inner HTML</h3>
+<p id="result"></p> 
+
+<script type="text/javascript">
+    var x=10;
+    var y=20;
+    var sum=x+y;
+    document.getElementById("result").innerHTML=sum;
+ 
+    document.write("<br>")
+ </script>
+
+</body>
+</html>
