@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wep page</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		var x="jhon";
+		document.write(x);
+		document.write("<br>");
+		var x=10;
+		document.write(x);
+	</script>
+
+</body>
+</html>
+*************************************************************
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wep page</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		var x,y,z;
+		x=10;
+		y=20;
+		z=30;
+		document.write(x,"<br>",y,"<br>",z);
+		document.write("<br>");
+		
+	</script>
+
+</body>
+</html>
+
+**********************************************************
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wep page</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		var x=10;
+		var call=myfunction();
+		document.write(call);
+		function myfunction() {
+			var y=20;
+			document.write(x);
+			document.write("<br>");
+			document.write(y);
+			document.write("<br>");
+		}
+	
+	</script>
+
+</body>
+</html>
+
+**********************************************
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wep page</title>
+</head>
+<body>
+	
+
+	<script type="text/javascript">
+		var x=10;
+		var y=10;
+		// document.write(x+y);
+		// window.alert(x+y);
+		console.log(x+y+x);
+	
+	</script>
+
+</body>
+</html>
+
+*********************************************
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wep page</title>
+</head>
+<body>
+	
+<p id="id1"></p>
+	<script type="text/javascript">
+		var x=10;
+		var y=10;
+		document.getElementById('id1').innerHTML=x
+	
+	</script>
+
+</body>
+</html>
