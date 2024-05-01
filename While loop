@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+<h3>While Loop</h3>
+<script type="text/javascript">
+    var count=0;
+    document.write("Starting Loop");
+
+    while(count<10){
+        document.write("Current Count:"+count+"<br/>");
+        count++;  
+}
+document.write("Loop stopped!");
+document.write("<br>")
+</script>
+
+</body>
+</html>
