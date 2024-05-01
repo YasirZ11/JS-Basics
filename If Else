@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+<h3>If Else</h3>
+<script type="text/javascript">
+    var book="maths";
+    if(book=="history"){
+        document.write("<b>History Book</b>");}
+        else if(book=="maths"){
+        document.write("<b>Maths Book</b>");}
+       else if(book=="economics"){
+        document.write("<b>Economics Book</b>");}
+       else{
+        document.write("<b>Unknown Book</b>");}
+    
+ document.write("<br>")
+  </script>
+
+</body>
+</html>
