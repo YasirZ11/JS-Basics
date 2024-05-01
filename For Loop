@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+
+<h3>For Loop</h3>
+<script type="text/javascript">
+    var count;
+    document.write("Starting Loop"+"<br/>");
+
+    for(count=0;count<10;count++){
+        document.write("Current Count:"+count+"<br/>");
+      
+}
+document.write("Loop stopped!");
+document.write("<br>")
+</script>
+
+</body>
+</html>
