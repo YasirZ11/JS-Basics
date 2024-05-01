@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+<h3>Call by method</h3>
+<p id="method1"></p>
+<p id="method2"></p>
+
+<script type="text/javascript">
+    const per={
+        firstName:"Yasir",
+        lastName:"Zulfikar",
+        id:2620,
+      
+        fullName:function(){
+            return this.firstName+" "+this.lastName;
+        }
+
+    };
+    document.getElementById("method1").innerHTML= per.fullName();
+
+</script>
+
+</body>
+</html>
