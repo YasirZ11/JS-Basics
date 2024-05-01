@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>array</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var Arr=[1,5,3,4];
+         //alert(Arr);
+         // alert(Arr.length);
+         //alert(Arr.sort());
+         alert(Arr.reverse());
+    </script>
+
+</body>
+</html>
