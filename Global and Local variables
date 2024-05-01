@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Basics</title>
+</head>
+<body>
+   <h3>Global and Local Variables</h3>
+
+<script type="text/javascript">
+    //Global Variable and Local Variable
+     var myVar="localvariable"
+     var call=localvariable()
+
+     function localvariable(){
+         var m=10;
+         document.write(" m is",m,"<br>")
+     }
+
+   
+ </script>
+
+</body>
+</html>
